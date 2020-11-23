@@ -15,11 +15,11 @@ const Timeline = () => {
 
           {/* Time passed {( (current - new Date(start * 1000))/60000/60).toFixed(2)}hrs
            <br/>*/}
-           Seconds passed: {Math.floor(( (current - new Date(start * 1000))/1000))}
+           Seconds passed(since 21st Nov 2020): {Math.floor(( (current - new Date(start * 1000))/1000))}
            {/*<br/>
            Time to pass: {( (new Date(end * 1000 - current))/60000/60).toFixed(2)}hrs*/}
            <br/>
-           Seconds to pass: {Math.floor(( (new Date(end * 1000 - current))/1000))}
+           Seconds to pass(till 20th May 2021): {Math.floor(( (new Date(end * 1000 - current))/1000))}
         </div>
     )
 }
